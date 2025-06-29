@@ -1,0 +1,443 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: Poppins,sans-serif; */
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar{
+    box-shadow: 0px 5px 15px rgb(230, 163, 215);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.navlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navlogo img{
+    height: 52px;
+    width: 58px;
+    margin: 13px; 
+}
+.navlogo img:hover{
+   cursor: pointer; 
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+.navoptions li:hover{
+    cursor: pointer;
+    color: darkgray;
+}
+.navbar h3{
+    font-weight: 400;
+    font-size: 21px;
+}
+.navbar:hover{
+    cursor:copy;
+}
+.navbar li{
+    font-size: 19px;
+}
+.navbttn{
+    padding: 8px 12px;
+    border-radius: 100px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbttn:active{
+    background-color: rgb(231, 133, 231);
+    border: 2px solid  rgb(123, 6, 128) ;
+}
+.navbttn:hover{
+    background-color:  rgb(243, 115, 243);
+}
+
+.hero-section {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 120px;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content .brand {
+    color: #999;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+.hero-content .subtitle {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.uxcel-icon {
+
+    height: 20px;
+    width: 20px;
+    /* margin-right:30px; */
+}
+
+.hero-icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.features{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 163, 215);
+}
+.features h2{
+    font-size:x-large;
+}
+.features h2:hover{
+    color: white;
+}
+.resources{
+    height: 500px;
+}
+.resource-section {
+    padding: 150px 120px;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.resource-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resource-box {
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 30px 25px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.resource-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgb(230, 163, 215);
+    cursor: pointer;
+}
+
+.resource-box img {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.resource-box h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.resource-box p {
+    font-size: 14px;
+    color:  rgb(243, 115, 243);
+}
+
+
+.connect-members {
+  height: 250px;
+  background-color: rgb(46, 0, 31);
+  color: white;
+  padding: 200px 80px;
+}
+
+.connect-container {
+    height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.connect-left {
+  max-width: 300px;
+}
+
+.connect-left .quote-icon {
+  font-size: 40px;
+  color: rgb(243, 115, 243);
+  margin-bottom: 20px;
+}
+
+.connect-left h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.connect-left p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.connect-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(243, 115, 243);
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.connect-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+}
+
+.member-card {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 220px;
+  text-align: center;
+}
+
+.member-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.member-card .quote {
+  font-size: 14px;
+  color: #333;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.member-card h4 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.member-card .company {
+  font-size: 13px;
+  color: gray;
+}
+
+
+
+.footer-section {
+    background-color: white;
+    color: black;
+    padding: 150px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+}
+
+.footer-logo h2 span {
+    color: rgb(230, 163, 215);
+}
+
+.foot-p{
+    font-size: 18px;
+}
+.footer-contact p, .footer-socials p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.footer-contact a {
+    color: rgb(230, 163, 215);
+    text-decoration: none;
+}
+
+.footer-socials .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-socials img {
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer-right h2 {
+    font-size: 28px;
+    color: rgb(230, 163, 215);
+    margin-bottom: 20px;
+}
+
+.footer-right h2 span {
+    color: #000;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.register-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.register-btn {
+    background-color: rgb(230, 163, 215);
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: black;
+     color: white;
+}
+
+
+/* Scroll to Top */
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 16px;
+  background-color: rgb(243, 115, 243);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+  background-color: black;
+}
+
+/* Error message styling */
+.input-error {
+  border: 2px solid red;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Show hamburger always (even on PC) */
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  display: block;
+}
+
+/* Hide the extra nav-menu by default */
+.nav-menu {
+  display: none;               /* Initially hidden */
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid rgb(230, 163, 215);
+  box-shadow: 0px 5px 15px rgba(230, 163, 215, 0.5);
+  padding: 20px;
+  width: 150px;
+  max-width: 90vw;
+  overflow-x: hidden;
+  z-index: 1000;
+}
+
+/* Show dropdown when active */
+.nav-menu.active {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dropdown list styling */
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;  /* This stacks items vertically */
+  gap: 3px;                /* Optional spacing between buttons */
+  /* padding: 0;
+  margin: 0; */
+}
+
+.nav-menu li {
+  margin: 10px 0;
+}

@@ -32,7 +32,7 @@ form.addEventListener('submit', (e) => {
   const inputs = form.querySelectorAll('input');
   let valid = true;
 
-  // Clear old errors
+
   form.querySelectorAll('.error-msg').forEach(el => el.remove());
   inputs.forEach(input => input.classList.remove('input-error'));
 
